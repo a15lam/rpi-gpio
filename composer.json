@@ -1,0 +1,30 @@
+{
+  "name":        "a15lam/rpi-gpio",
+  "description": "A PHP Wrapper class around WiringPi GPIO library",
+  "homepage":    "https://github.com/a15lam/rpi-gpio",
+  "keywords":    [
+    "RaspberryPi",
+    "RPi2",
+    "RPi",
+    "WiringPi",
+    "GPIO",
+    "Raspberry"
+  ],
+  "license":     [
+    "Apache-2.0"
+  ],
+  "authors":     [
+    {
+      "name":  "Arif Islam",
+      "email": "areef.islam@gmail.com"
+    }
+  ],
+  "require":     {
+    "php":                    ">=5.5",
+  },
+  "autoload":    {
+    "psr-4": {
+      "a15lam\\RpiGpio\\": "src/"
+    }
+  }
+}
